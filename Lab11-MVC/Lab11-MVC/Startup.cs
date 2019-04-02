@@ -27,11 +27,12 @@ namespace Lab11_MVC
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
             app.UseMvc(route =>
             {
                 route.MapRoute(
                     name: "default",
-                    template: "{controller = Home}/{action = Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
 
             app.Run(async (context) =>

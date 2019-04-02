@@ -14,16 +14,16 @@ namespace Lab11_MVC.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Index()
-        {
+        //[HttpPost]
+        //public IActionResult Index()
+        //{
 
-        }
+        //}
 
-        public IActionResult Results()
-        {
+        //public IActionResult Results()
+        //{
 
-        }
+        //}
 
     }
 }
