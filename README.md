@@ -22,7 +22,7 @@ Select ```File``` -> ```Open``` -> ```Project/Solution```
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the ```PhilsLendingLibrary``` directory.
+Double click on the ```MVC``` directory.
 
 Then select and open ```Program.cs```
 
