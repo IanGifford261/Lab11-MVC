@@ -15,7 +15,7 @@
 ## Getting Started
 Clone this repository to your local machine.
 ```
-$ git clone https://github.com/IanGifford261/Lab07-Phils-Lending-Library.git
+$ git clone https://github.com/IanGifford261/Lab11-MVC.git
 ```
 #### To run the program from Visual Studio:
 Select ```File``` -> ```Open``` -> ```Project/Solution```
