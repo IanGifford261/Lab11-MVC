@@ -25,8 +25,13 @@ namespace Lab11_MVC.Models
         public static List<Wine> GetWineList(int minimumPoints, int maximumPrice)
         {
             List<Wine> wineList = new List<Wine>();
-            var filePath = new StreamReader(File.OpenRead("../../wine.csv"));
-
+            string filePath = "../../wine.csv";
+            //var filePath = new StreamReader(File.OpenRead("../../wine.csv"));
+            using (StreamReader sr = new StreamReader(filePath))
+            {
+                ;
+            }
+        }
 
         }
     }
