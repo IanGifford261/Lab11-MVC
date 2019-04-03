@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Lab11_MVC.Models;
 using Lab11_MVC.Controllers;
+using System.IO;
 
 namespace Lab11_MVC.Models
 {
@@ -23,6 +24,9 @@ namespace Lab11_MVC.Models
 
         public static List<Wine> GetWineList(int minimumPoints, int maximumPrice)
         {
+            List<Wine> wineList = new List<Wine>();
+            var filePath = new StreamReader(File.OpenRead("../../wine.csv"));
+
 
         }
     }
