@@ -16,15 +16,15 @@ namespace Lab11_MVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(int minimumPrice, int maximumPrice)
+        public IActionResult Index(int minimumPoints, int maximumPrice)
         {
-            return RedirectToAction("Results", new { minimumPrice, maximumPrice });
+            return RedirectToAction("Results", new { minimumPoints, maximumPrice });
         }
 
         [HttpGet]
-        public IActionResult Results(int minimumPrice, int maximumPrice)
+        public IActionResult Results(int minimumPoints, int maximumPrice)
         {
-            List<Wine> wineList = Wine.GetWineList(minimumPrice, maximumPrice);
+            List<Wine> wineList = Wine.GetWineList(minimumPoints, maximumPrice);
             return View(wineList);
         }
 
