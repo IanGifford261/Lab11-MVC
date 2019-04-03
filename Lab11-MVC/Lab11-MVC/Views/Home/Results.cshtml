@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Lab11_MVC.Models.Wine>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Wine Results!</title>
+    <link rel="stylesheet" href="~/style/StyleSheet.css" />
+</head>
+<body>
+    Wine List
+    @foreach (var item in Model)
+    {
+
+    }
+    <a asp-controller="Home" asp-action="Index">Add new Wine Choice</a?
+</body>
+</html>
