@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Lab11_MVC.Models
 {
@@ -16,7 +17,6 @@ namespace Lab11_MVC.Models
         public string Region_1 { get; set; }
         public string Region_2 { get; set; }
         public string Variety { get; set; }
-        public string Windery { get; set; }
-
+        public string Winery { get; set; }
     }
 }
