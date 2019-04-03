@@ -42,4 +42,5 @@ Then select and open ```Program.cs```
 
 
 ------------------------------
-#### Credit to assistance ####
+#### Credit to Collabs ####
+Jason Burns, and Daniel Logerstedt
