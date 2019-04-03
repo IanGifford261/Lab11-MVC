@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Lab11_MVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,12 +16,13 @@ namespace Lab11_MVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index()
+        public IActionResult Index(int minimumPrice, int maximumPrice)
         {
-
+            return RedirectToAction("Results", new { minimumPrice, maximumPrice });
         }
 
-        public IActionResult Results()
+        [HttpGet]
+        public IActionResult Results(int minimumPrice, int maximumPrice)
         {
 
         }

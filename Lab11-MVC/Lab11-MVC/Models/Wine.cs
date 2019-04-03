@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Lab11_MVC.Models;
+using Lab11_MVC.Controllers;
 
 namespace Lab11_MVC.Models
 {
