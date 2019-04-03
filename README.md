@@ -8,6 +8,7 @@
 
 ## Description
 
+An application that assists customers in finding the perfect wine, using the MVC architectural pattern that asks the customer to input the price, and point rating they are searching for. The customer should then be redirected to another page that will show the filtered results from the inventory.
 
 
 ------------------------------
@@ -22,7 +23,7 @@ Select ```File``` -> ```Open``` -> ```Project/Solution```
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the ```MVC``` directory.
+Double click on the ```Lab11_MVC``` directory.
 
 Then select and open ```Program.cs```
 
