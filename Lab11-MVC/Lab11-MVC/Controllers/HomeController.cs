@@ -24,7 +24,8 @@ namespace Lab11_MVC.Controllers
         [HttpGet]
         public IActionResult Results(int minimumPrice, int maximumPrice)
         {
-
+            List<Wine> wineList = Wine.GetWineList(minimumPrice, maximumPrice);
+            return View(wineList);
         }
 
     }

@@ -21,7 +21,7 @@ namespace Lab11_MVC.Models
         public string Variety { get; set; }
         public string Winery { get; set; }
 
-        public static List<Wine> GetWineList()
+        public static List<Wine> GetWineList(int minimumPrice, int maximumPrice)
         {
 
         }
